@@ -1,0 +1,81 @@
+header {
+    background-color: #ff8a65;
+    padding: 1px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+#container {
+    /* background-color: #f5f5f5; */
+    display: flex;
+    margin-top: 2em ;
+    padding: 10px;
+    /* min-height: 75vh; */
+}
+
+#user-list-section {
+    border: 2px solid #bdbdbd; 
+    flex: 1;
+    margin-right: 30px;   
+    padding: 10px; 
+    max-height: 490px;
+    overflow-y: scroll;
+    min-height: 490px;
+    border-radius: 5px;
+}
+
+#user-table {
+    border: 2px solid #bdbdbd; 
+    flex: 3;   
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#user-list-section > div {
+    border: 2px dashed #ffeeba; 
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 17px 17px;
+}
+  
+td {
+    border: 2px dashed #bdbdbd;
+    min-width: 13em;
+    margin-right: 5px;
+    padding: 5px;
+    height: 50px;
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    border-radius: 7px;
+}
+
+.highlight {
+    /* background:#ff8a65; */
+    box-shadow:2px 2px 1px 1px rgba(144, 144, 144, 0.39);
+}
+
+.cancel-btn {
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: .25rem;
+}
+
+.user-list-items {
+    color: #721c24;
+    background-color: #fff3cd;
+    /* height: 24px; */
+    padding-top: 12px;
+}

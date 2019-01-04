@@ -1,61 +1,44 @@
 <!DOCTYPE html>
     <head>
-        <title>Demo</title>
-        <link rel="stylesheet" type="text/css" href="user_style.css">
+        <title>User's Drag & Drop</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <body>
+    <body onload="genUserList()">
         <header>
-            <h2>User's</h2>
+            <h2>User's Drag & Drop</h2>
         </header>
         <div id="container">
-            <div id="user-list">
-                <ul style="list-style-type: none;"> 
-                    <li class="user-items">User</li>
-                    <li class="user-items">User</li>
-                    <li class="user-items">User</li>
-                    <li class="user-items">User</li>
-                    <li class="user-items">User</li>
-                </ul>
+            <div id="user-list-section">
+                
             </div>
             <div id="user-table">
                 <table>
                     <tbody>
-                        <tr>
-                            <td>Value</td>
-                            <td>Value</td>
-                            <td>Value</td>
-                            <td>Value</td>
-                            <td>Value</td>
+                        <tr class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            
                         </tr>
-                        <tr>
-                            <td>Value</td>
-                            <td>Value</td>
-                            <td>Value</td>
-                            <td>Value</td>
-                            <td>Value</td>
+                        <tr class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            
                         </tr>
-                        <tr>
-                            <td>Value</td>
-                            <td>Value</td>
-                            <td>Value</td>
-                            <td>Value</td>
-                            <td>Value</td>
-                        </tr>
-                        <tr>
-                            <td>Value</td>
-                            <td>Value</td>
-                            <td>Value</td>
-                            <td>Value</td>
-                            <td>Value</td>
+                        <tr class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-        <script>
-            var userListData = [
-                
-            ]
-        </script>
+        <script type="text/javascript" src="javascript.js"></script>
     </body>
 </html>
