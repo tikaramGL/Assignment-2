@@ -56,10 +56,9 @@ td {
     border-radius: 7px;
 }
 
-.highlight {
-    /* background:#ff8a65; */
+/* .highlight {
     box-shadow:2px 2px 1px 1px rgba(144, 144, 144, 0.39);
-}
+} */
 
 .cancel-btn {
     float: right;
